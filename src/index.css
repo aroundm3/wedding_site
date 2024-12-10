@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card-zoom:hover .card-zoom-image {
+  @apply scale-110;
+}
+.card-zoom:hover .card-zoom-content {
+  @apply scale-100 block;
+}
